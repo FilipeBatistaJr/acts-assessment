@@ -30,9 +30,8 @@ crypto-tracker/
 │   ├── src/
 │   ├── App.css
 │   ├── App.js
-│  ├── .env
-│  ├── .package.json
-│── README.md
+│  ├── /.env
+│  ├── /.package.json
 
 # ⚙️ Installation & Setup
 
@@ -40,7 +39,7 @@ crypto-tracker/
 (In Terminal):
 
 git clone [https://github.com/FilipeBatistaJr/acts-assessment/tree/main/crypto_track]
-cd crypto-tracker
+cd crypto_track
 
 # 2️. Install Dependencies
 
