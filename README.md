@@ -39,7 +39,7 @@ crypto-tracker/
 # 1. Clone Repository
 (In Terminal):
 
-git clone https://github.com/your-username/crypto-tracker.git
+git clone [https://github.com/FilipeBatistaJr/acts-assessment/tree/main/crypto_track]
 cd crypto-tracker
 
 # 2️. Install Dependencies
