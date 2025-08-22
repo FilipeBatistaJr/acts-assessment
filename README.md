@@ -127,5 +127,6 @@ Frontend runs on: "http://localhost:3000"
 - [x] Cache miss fetches fresh data → updates Redis → saves to MariaDB
 
 # 👤 Author
-Filipe Batista 
+Filipe Batista.
+
 Built for assessment purposes.
