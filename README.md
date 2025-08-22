@@ -83,7 +83,7 @@ REDIS_PORT=6379
 
 # 4️. Install and Run Redis
 Since I am running on a Windows 8.1 machine I had to 
-Install Redis version 3.0.508 (old) to get Redis to work
+Install Redis version 3.0.508 (old) to get Redis to work.
 So since you are most likely running on a newer machine
 I would recommend using Docker.
 
