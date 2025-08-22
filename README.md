@@ -39,6 +39,7 @@ crypto-tracker/
 (In Terminal):
 
 git clone [https://github.com/FilipeBatistaJr/acts-assessment/tree/main/crypto_track]
+
 cd crypto_track
 
 # 2️. Install Dependencies
