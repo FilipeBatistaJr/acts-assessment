@@ -100,6 +100,7 @@ Backend runs on: "http://localhost:5000"
 
 cd front_end
 npm start
+
 Frontend runs on: "http://localhost:3000"
 
 # ? Testing the Project
