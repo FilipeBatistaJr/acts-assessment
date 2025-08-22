@@ -1,0 +1,138 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Custom styling for better appearance */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.display-4 {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card hover effects */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 123, 255, 0.1) !important;
+}
+
+/* Table styling */
+.table > :not(caption) > * > * {
+  padding: 1rem 0.75rem;
+  border-bottom-width: 1px;
+  vertical-align: middle;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.05);
+  transition: background-color 0.15s ease-in-out;
+}
+
+/* Price change colors */
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Button styling */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Loading spinner styling */
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Custom card body padding for mobile cards */
+.crypto-card .card-body {
+  padding: 1.5rem;
+}
+
+/* Alert styling */
+.alert {
+  border-radius: 12px;
+  border: none;
+}
+
+/* Header section spacing */
+.text-center.mb-5 {
+  padding: 2rem 0;
+}
+
+/* Hover effects for clickable crypto rows */
+.crypto-row:hover {
+  background-color: #f8f9fa !important;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Hover effects for mobile crypto cards */
+.crypto-card:hover {
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+}
+
+/* Chart container responsiveness */
+.chart-container {
+  min-height: 400px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  
+  .chart-container {
+    min-height: 300px;
+  }
+}
+
+/* Navigation improvements */
+.navbar-brand:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* Button hover effects */
+.btn:hover {
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
