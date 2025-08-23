@@ -75,9 +75,9 @@ CREATE TABLE cryptos (
 Update "back_end/.env" with your DB credentials:
 
 DB_HOST=localhost
-DB_USER=root (in my instance filipe)
-DB_PASSWORD=your_password (in my instance password123)
-DB_NAME=crypto_tracker
+DB_USER=your_db_username
+DB_PASSWORD=your_password
+DB_NAME=your_db_name
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
 
