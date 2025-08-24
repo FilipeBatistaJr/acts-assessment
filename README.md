@@ -38,7 +38,7 @@ crypto-tracker/
 # 1. Clone Repository
 (In Terminal):
 
-git clone [https://github.com/FilipeBatistaJr/acts-assessment/tree/main/crypto_track]
+git clone [https://github.com/FilipeBatistaJr/acts-assessment.git]
 
 cd crypto_track
 
